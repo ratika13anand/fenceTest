@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.test2.MainActivity" >
+
+    <item
+        android:id="@+id/create"
+        android:orderInCategory="100"
+        android:title="Create Fence"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/cancel"
+        android:orderInCategory="100"
+        android:title="Cancel"
+        app:showAsAction="never"/>
+
+</menu>
